@@ -1,6 +1,12 @@
 # Kedro-Runner-Service
 A tool to use requests to run Kedro projects.
 
+# Running the FastAPI Server
+
+```bash
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
 # Sending Requests
 
 ```bash
